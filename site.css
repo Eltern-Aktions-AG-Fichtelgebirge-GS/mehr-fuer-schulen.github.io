@@ -1,0 +1,88 @@
+body {
+	background: white;
+	color: black;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	font-size: 12pt;
+	padding: 2em;
+	min-width: 820px;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+#banner {
+	float: right;
+	padding-left: 3px;
+	width: 29.5%;
+	margin-bottom: 2em;
+}
+
+#menu {
+	float: left;
+	width: 70%;
+	margin: 0;
+	padding: 0;
+	border-bottom: 3px solid #e56011;
+}
+
+#menu li {
+	float: left;
+	list-style-type: none;
+	width: 20%;
+}
+
+#menu li:first-child a {
+	margin-left: 0;
+}
+
+#menu li a {
+	margin: 0 0 3px 3px;
+	background-color: #fcc;
+	color: black;
+	display: block;
+	padding: 0.6em 0;
+	text-decoration: none;
+	text-align: center;
+}
+
+#menu li a:hover,
+#menu li a.selected {
+	background-color: red;
+	color: white;
+}
+
+h1 {
+	font-size: xx-large;
+	margin: 3em 0 1em 0;
+	color: black;
+}
+
+.content {
+	clear: left;
+	width: 65%;
+	min-height: 20em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 0;
+	margin-bottom: 2em;
+}
+
+address {
+	font-style: normal;
+}
+
+#footer {
+	margin-top: 4em;
+	padding-top: 0.5em;
+	border-top: 1px solid #aaa;
+	color: #aaa;
+	font-size: 90%;
+}
+
+#footer .right {
+	float: right;
+}
