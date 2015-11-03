@@ -12,6 +12,7 @@ body {
 #header {
 	position: relative;
 	height: 13.2em;
+	margin: 0 0 2em 0;
 }
 
 #banner {
@@ -79,6 +80,7 @@ body {
 	clear: left;
 	width: 70%;
 	min-height: 20em;
+	line-height: 1.3em;
 }
 
 dt {
