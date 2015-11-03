@@ -80,6 +80,7 @@ body {
 	clear: left;
 	width: 70%;
 	min-height: 20em;
+	text-align: justify;
 	line-height: 1.3em;
 }
 
