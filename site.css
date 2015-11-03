@@ -1,3 +1,7 @@
+html, body {
+	height: 100%;
+}
+
 body {
 	background: white;
 	color: black;
@@ -11,13 +15,16 @@ body {
 
 #header {
 	position: relative;
-	height: 13.2em;
+	height: 20%;
+	min-height: 170px;
+	max-height: 250px;
 	margin: 0 0 2em 0;
 }
 
 #banner {
 	position: absolute;
-	right: 0;
+	left: 70%;
+	padding: 0 0 0 0.5em;
 	height: 100%;
 }
 
