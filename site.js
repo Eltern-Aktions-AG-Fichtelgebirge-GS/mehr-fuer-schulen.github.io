@@ -16,7 +16,7 @@ $(document).ready(function() {
 	});
 
 	$('.translation').hide();
-	$('.translation:first').show();
+	$('.translation.initial').show();
 	$('#menu a:first').addClass('selected');
 
 	var hash = window.location.hash;
