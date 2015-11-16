@@ -13,6 +13,11 @@ body {
 	margin: 0 auto;
 }
 
+a {
+	color: #e56011;
+	text-decoration: none;
+}
+
 #header {
 	position: relative;
 	height: 20%;
