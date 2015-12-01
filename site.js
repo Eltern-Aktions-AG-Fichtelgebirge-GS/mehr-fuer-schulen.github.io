@@ -10,11 +10,6 @@ $(document).ready(function() {
 		ev.preventDefault();
 	});
 
-	$('a.menu').click(function(ev) {
-		var elem = $(this);
-		$('#menu a[href=' + elem.attr('href') +']').click();
-	});
-
 	$('.translation').hide();
 	$('.translation.initial').show();
 	$('#menu a:first').addClass('selected');
