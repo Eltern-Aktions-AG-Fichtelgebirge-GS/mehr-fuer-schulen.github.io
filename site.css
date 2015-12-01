@@ -120,6 +120,12 @@ address {
 	font-style: normal;
 }
 
+.content h3 {
+	margin: 3em 0 0 0;
+	padding: 1em 0 0 0;
+	border-top: 1px solid #ddd;
+}
+
 #footer {
 	margin-top: 4em;
 	padding-top: 0.5em;

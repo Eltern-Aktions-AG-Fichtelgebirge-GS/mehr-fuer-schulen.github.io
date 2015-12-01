@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	$('#menu a, a.menu').click(function(ev) {
+	$('#menu a').click(function(ev) {
 		var elem = $(this);
 		$('.translation').hide();
 		$(elem.attr('href').replace('#', '.')).show();
